@@ -1,0 +1,19 @@
+<channel
+   name="test3_Channel4"
+   guid="C4BFB7397AE727784D25102C9CEFA6BE"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="test3_Channel4-To-d3zms1VWRQur5i"
+      commit_id="eb3b4803f4e403c82a21375e408fbb82b2502f84"
+      commit_comment="done">
+      <dequeue_list>
+         <dequeue
+            source_name="test3_Channel1"
+            dequeue_guid="00A92A25D47917247FD86792AE3D5749"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>
